@@ -15,11 +15,17 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 Assuming that the number of nodes in graph A and graph B is the same, n, and there must be an edge between every two nodes, then the structure of their edges will be consistent no matter how they are arranged.
 
+Because graphs G1 and G2 have the same number of nodes n, we can construct a bijection f from G1 nodes to G2 nodes: va -> vb
+
 |VA| = |VB| = n, then bijection f: VA -> VB 
+
+Any two different nodes (u,v)∈Va in G1 will have an edge (u,v)∈Ea
 
 for any u,v ∈ VA, (u,v) ∈EA <-> (f(u),F(v)∈EB)
 
 f is a bijection and preserves the edge structure, so it is isomorphic as long as the number of nodes is the same.
+
+There must be edges between all pairs of nodes in the graph, and bijection can ensure the correspondence between nodes and edges.
 
 ###
 
