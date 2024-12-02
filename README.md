@@ -19,6 +19,10 @@ Because graphs G1 and G2 have the same number of nodes n, we can construct a bij
 
 |VA| = |VB| = n, then bijection f: VA -> VB 
 
+VA -> VB is mapped in node order so that each node is uniquely mapped. Since any two nodes in the complete graph are connected by edges, the corresponding relationship of the edges is still maintained after mapping.
+
+f must be a bijection to ensure a one-to-one correspondence between nodes and edges.
+
 Any two different nodes (u,v)∈Va in G1 will have an edge (u,v)∈Ea
 
 for any u,v ∈ VA, (u,v) ∈EA <-> (f(u),F(v)∈EB)
