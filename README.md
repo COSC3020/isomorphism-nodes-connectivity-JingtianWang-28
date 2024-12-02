@@ -13,23 +13,15 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 ///
 
-Assuming that the number of nodes in graph A and graph B is the same, n, and there must be an edge between every two nodes, then the structure of their edges will be consistent no matter how they are arranged.
+G1G2 is fully connected and has the same number of nodes, then there must be an f that allows G1 to be mapped to G2. Since every node in G1 can be mapped to the corresponding unique node in G2, f is a bijection.
 
-Because graphs G1 and G2 have the same number of nodes n, we can construct a bijection f from G1 nodes to G2 nodes: va -> vb
+since G1 is fully connected , any two node a,b∈V1 are connected by egde (a,b)∈E1
 
-|VA| = |VB| = n, then bijection f: VA -> VB 
+so it must have f let the edge f(a),f(b)∈E2 map to corresponding node f(a),f(b)∈V2.
 
-VA -> VB is mapped in node order so that each node is uniquely mapped. Since any two nodes in the complete graph are connected by edges, the corresponding relationship of the edges is still maintained after mapping.
+Since f is a bijection, f can map every unique node and edge of G1 to a unique node of G2 while preserving structural equivalence.
 
-f must be a bijection to ensure a one-to-one correspondence between nodes and edges.
-
-Any two different nodes (u,v)∈Va in G1 will have an edge (u,v)∈Ea
-
-for any u,v ∈ VA, (u,v) ∈EA <-> (f(u),F(v)∈EB)
-
-f is a bijection and preserves the edge structure, so it is isomorphic as long as the number of nodes is the same.
-
-There must be edges between all pairs of nodes in the graph, and bijection can ensure the correspondence between nodes and edges.
+So f preserves the relationship from G1 to G2 and satisfies f:V1 -> V2 such that (u,v)∈E1 iff (f(u),f(v))∈E2
 
 ###
 
