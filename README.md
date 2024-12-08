@@ -13,15 +13,19 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 ///
 
-G1G2 is fully connected and has the same number of nodes, then there must be an f that allows G1 to be mapped to G2. Since every node in G1 can be mapped to the corresponding unique node in G2, f is a bijection.
+Graph A and graph B have the same number of nodes and are fully connected, so they are isomorphic
 
-since G1 is fully connected , any two node a,b∈V1 are connected by egde (a,b)∈E1
+Since A and B have the same number of vertices, let the vertex set be Va = Vb = {v1,v2...vn}
 
-so it must have f let the edge f(a),f(b)∈E2 map to corresponding node f(a),f(b)∈V2.
+Since A is fully connected, there must be an edge connecting any two different vertices Vx Vy in Va
 
-Since f is a bijection, f can map every unique node and edge of G1 to a unique node of G2 while preserving structural equivalence.
+Since B is fully connected, there must be an edge connecting any two different vertices Vx Vy in Vb
 
-So f preserves the relationship from G1 to G2 and satisfies f:V1 -> V2 such that (u,v)∈E1 iff (f(u),f(v))∈E2
+let f:v1 -> v2, define as f(vx) = vx, for all x∈{1...n}
+
+f is a bijection, because each vertex in Va can be mapped one-to-one to a vertex in Vb, and the same for graph B, so we have satisfied the conditions for isomorphism.
+
+So they must isomorphic
 
 ###
 
